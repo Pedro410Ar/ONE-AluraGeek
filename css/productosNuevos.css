@@ -1,0 +1,196 @@
+.galeria{
+        height: 700px;
+        background: #E5E5E5;
+        font-family: Raleway;
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+}
+
+.O{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#boton-agregar{
+        width: 559px;
+        height: 56px;
+        border-radius: 10px;
+        font-size: 18px;
+        color: #E5E5E5;
+        background-color: #2A7AE4 ;
+        margin-bottom: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        font-family: Raleway;
+        
+        
+    
+        transition: 1s all;
+    }
+    
+    #boton-agregar:hover{
+           
+        background:rgb(90, 186, 203);
+        transform: scale(0.9);
+    }
+
+    #boton-nuevo{
+
+        background-color: white;
+        height: 151px;
+        width: 182px;
+        margin-right: 100px;
+        top: 62px;
+        border-radius: 0px;
+        border-color: #2A7AE4;
+        padding: 16px;
+    
+        font-family: Raleway;
+        color: #2A7AE4;
+        margin-left: 50px;  
+    }
+
+.campo{
+    width: 550px;
+    height: 56px;
+}
+
+.campo-descripcion{
+    width: 550px;
+    height: 86px;
+    border-radius: 5px;
+}
+
+
+.producto_nuevo{
+    display: flex;
+
+}
+
+.producto_nuevo_page{
+    height: 700px;
+    align-items: center;
+    
+}
+
+.producto__nuevo_imagen{
+    width:301px ;
+    height:152px;
+    
+}
+
+.producto__nuevo_titulo{
+    font-size: 32px;
+}
+
+.formulario{
+    margin-top: 20px;
+    
+}
+
+.campo-formulario{
+    border-radius: 5px;    
+    height: 35px;
+    width: 548px;
+}
+
+#areaTexto{
+    width: 550px;
+    border-radius: 5px;
+}
+
+
+ /*---------RESPONSIVE---------------*/
+ @media (max-width:768px){
+
+    .galeria{
+        display: flex;
+        flex-direction: column;
+         align-items: initial;
+         text-align: center;
+
+    }
+
+    .O{
+        display: none;
+    }
+
+    #boton-nuevo{
+        display: none;
+    }
+
+    .producto__nuevo_titulo{
+        font-size: 22px;
+    }
+
+    #boton-agregar{
+        width: 230px;
+        margin-left: 60px; 
+    }
+
+    #lupa {
+            display: none;
+    }
+
+    .lupa2{
+        
+            margin-right: 280px;
+        }
+     
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            align-items: initial;
+            text-align: center;
+            
+         }
+
+         .producto__nuevo_imagen{
+            width:240px ;
+            height:152px;
+            margin-left: 60px; 
+            
+        }
+   
+         .campo{
+           width: 230px;    
+           margin-left: 60px;   
+   
+         }
+
+         .campo-descripcion{
+            width: 230px;
+            height: 86px;
+            margin-left: 60px; 
+        }
+
+        .campo-formulario{
+            width: 230px;    
+           margin-left: 60px; 
+        }
+   
+         .texto_formulario{
+            text-align: left;
+          
+        }
+
+         #areaTexto{
+           width: 230px;
+           margin-left: 60px;
+         }
+
+
+         .boton-enviar{
+             margin-left: 60px;
+         }
+
+
+
+        
+
+
+
+ }

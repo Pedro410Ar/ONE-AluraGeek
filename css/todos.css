@@ -1,0 +1,61 @@
+.titulo-boton{
+    display: flex;
+    align-items: flex-end;
+}
+
+.titulo-todos{
+    font-family: Raleway;
+    font-weight: 700 bold;
+    font-size: 32px;
+    color: #464646;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.boton-agregarP{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #E5E5E5;
+    background-color: #2A7AE4 ;
+    margin-bottom: 20px;
+    margin-left: 880px;
+
+  
+    
+    transition: 1s all;
+}
+
+.boton-agregarP:hover{
+       
+    background:rgb(30, 78, 86);
+    transform: scale(0.9);
+}
+
+.boton-agregarP  a{
+    text-decoration:none;
+    color: #fffefe;
+}
+
+
+
+/*---------RESPONSIVE movil---------------*/
+
+@media (max-width:768px){
+
+.titulo-todos{
+    font-size: 22px;
+    margin-left: 80px;
+}
+
+.titulo-boton{
+    display: block;
+}
+
+.boton-agregarP{
+margin-left: 80px;
+width: 180px;
+height: 40px;
+}
+}
